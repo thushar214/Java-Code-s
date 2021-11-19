@@ -44,6 +44,6 @@ class Main
             }
             
         }
-        System.out.println("NO of work's Done:"+count);
+        System.out.println("NO of work's Done: "+count);
     }
 }
