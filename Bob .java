@@ -36,7 +36,7 @@ class Main
                     count++;
                 }
                 
-                //System.out.println("Increment value:"+W[a]);
+                
             }
             else
             {
