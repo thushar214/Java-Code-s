@@ -12,6 +12,7 @@ String [] str2 =new String[n];
 char ch =' ',ch1=' ';
 int a;
 String st1="";
+
 //taking input and stroing in new String array.
 for(int i=0;i<s.length();i++)
 {
@@ -19,7 +20,6 @@ ch = s.charAt(i);
 a   = Integer.parseInt(ch+"");
 st1 =str[a];
 str2[i] = st1;
-//System.out.println(str2[i]);
 }
 
 //Logic...
@@ -39,11 +39,9 @@ ch1=st2.charAt(l);
 if(ch1!=ch)
 {
 count++;
-//System.out.println(ch);
 }
 }
 st1=st2;
-//System.out.println(st1);
 }
 System.out.println(count);
 }
