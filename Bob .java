@@ -35,8 +35,6 @@ class Main
                 {
                     count++;
                 }
-                
-                
             }
             else
             {
